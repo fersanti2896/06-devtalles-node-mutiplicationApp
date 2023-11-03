@@ -1,4 +1,9 @@
+import { yarg } from './config/plugins/args.plugin';
 
-const message: string = 'Hola mundo!';
+(async() => {
+    await main();
+})();
 
-console.log( message );
+async function main() {
+    console.log(yarg)
+}
